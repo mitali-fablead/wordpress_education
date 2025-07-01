@@ -1,0 +1,40 @@
+.banner-left-side {
+  transform: rotate(270deg) !important;
+}
+.slider-social-icon {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 20px !important;
+}
+.categori-box {
+    position: absolute !important;
+    top: -5px !important;
+    left: 15px !important;
+    display: block !important;
+}
+.work-box{
+  position: relative !important;
+}
+.work-box .box-image img{
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+.wp-block-social-links {
+    gap: 10px !important;
+}
+.featured-section h2:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -18px;
+    margin: 0 auto;
+    background: #005E4F;
+    width: 70px;
+    height: 4px;
+    border-radius: 4px;
+}
+.meta-box {
+    gap: 10px;
+}

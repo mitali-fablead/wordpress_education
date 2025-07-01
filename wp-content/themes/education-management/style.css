@@ -1,0 +1,230 @@
+/*
+Theme Name: Education Management
+Theme URI: https://www.titanthemes.net/products/free-education-wordpress-theme
+Author: Titan Themes
+Author URI: https://www.titanthemes.net/
+Description: The Education Management WordPress Theme is a versatile and powerful solution designed to help educational institutions build a robust online presence. This theme is tailored for schools, universities, online education platforms, and any institution offering education services. It’s ideal for managing and promoting various education programs, courses, and resources. Whether it's primary, secondary, tertiary, or adult education, this theme offers seamless functionality to cater to different educational needs. The theme features a clean, modern, and responsive design, making it accessible on all devices, from desktops to smartphones. Its user-friendly interface allows educational institutes to showcase their curriculum, course offerings, workshops, webinars, and even online learning platforms like distance education and blended learning. It integrates easily with popular learning management systems (LMS), making it perfect for institutions offering online education, certification programs, and interactive education. Key benefits for institutions include customizable sections for education programs, faculty profiles, and student testimonials. It also includes features for promoting educational events such as conferences, seminars, and training workshops. The design emphasises usability and accessibility, providing an intuitive experience for students, parents, and teachers alike. Furthermore, its integration with social media helps promote educational initiatives, courses, and scholarships, creating a broader reach for education institutions. With this theme, institutions can present themselves as modern, accessible, and forward-thinking, creating an engaging online space for learners and educators.
+Requires at least: 6.1
+Tested up to: 6.8
+Requires PHP: 7.2
+Version: 2.3
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: education-management
+Tags: one-column, custom-background, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, wide-blocks, block-styles, blog, education, portfolio
+*/
+
+.banner-left-side {
+  transform: rotate(270deg);
+}
+.slider-social-icon {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+.categori-box {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  display: block ;
+}
+.meta-box {
+  gap: 10px;
+}
+.work-box{
+  position: relative;
+}
+.work-box .box-image img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.wp-block-social-links {
+  gap: 10px;
+}
+.featured-section h2{
+  position: relative;
+}
+.featured-section h2:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -18px;
+  margin: 0 auto;
+  background: var(--wp--preset--color--primary);
+  width: 70px;
+  height: 4px;
+  border-radius: 4px;
+}
+.header-inner-menu ul li a {
+  position: relative;
+  padding: 4px 12px;
+}
+.header-inner-menu ul li a:hover {
+  background: var(--wp--preset--color--primary);
+  border-radius: 10px;
+}
+.wp-block-search__input {
+  width: 100% !important;
+}
+.home .header-box-upper {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  margin-top: 15px;
+  background: transparent !important;
+}
+.header-box-middle{
+  gap:0px;
+}
+.header-inner-menu ul li a{
+  position: relative;
+}
+.header-inner-menu ul li a:hover{
+  text-decoration: none;
+}
+.header-inner-menu ul li a:hover:after{
+  opacity:1;
+}
+.side-main-box{
+  position: relative;
+}
+.side-main-box button.wp-block-search__button.has-text-color.has-base-color.has-icon.wp-element-button{
+  padding: 20px 15px !important;
+  border-radius: 0px 0px 0px 10px;
+}
+.social-icon li{
+  background-color:transparent !important;
+}
+.social-icon li a svg{
+  height: 20px !important;
+  width: 20px !important;
+}
+.wp-block-image img{
+  vertical-align: unset;
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container li a {
+  color: #000;
+}
+.wp-site-blocks{
+	padding: 0 !important;
+}
+footer.wp-block-template-part {
+  margin-top: 0;
+}
+.comment-respond.wp-block-post-comments-form.wp-block-post-comments-form input[type=submit]{
+  color: #fff;
+}
+.sidebar-box .wp-block-search__button svg{
+  fill: #fff;
+}
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  span.wp-block-navigation-item__label {
+    color: var(--wp--preset--color--primary);
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 991px) {
+   .header-inner-menu ul {
+    justify-content: center !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 781px) {
+  .home .header-box-upper{
+    position: static;
+    background: #8b8b8b !important
+  }
+  .side-main-box form{
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+  .banner-left-side {
+    transform: rotate(0deg);
+    text-align: center;
+    margin-top: 30px !important;
+  }
+  .slider-cover{
+    min-height: 300px !important;
+  }
+  .slider-social-icon {
+    z-index: 1;
+  }
+  .work_main_box {
+    max-width: 100% !important;
+  }
+  .admin-box,.rating-box{
+    flex-wrap: nowrap !important;
+  }
+  .wp-block-column.box-meta.is-layout-flow.wp-block-column-is-layout-flow{
+    flex-basis:50% !important;
+  }
+  .side-main-box{
+    display: flex;
+    justify-content: center;
+  }
+  .header-logo{
+    margin-bottom: 20px !important;
+  }
+  
+  .header-inner-menu nav{
+    justify-content: center !important;
+  }
+}
+@media screen and (min-width: 782px) and (max-width: 1200px) {
+  .work_main_box{
+    max-width: 100% !important;
+  }
+  .banner-left-side{
+    flex-basis: 41% !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .admin-bar .wp-block-navigation__responsive-container-close {
+    color: var(--wp--preset--color--primary);
+    top:15px;
+  }
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container{
+    justify-content: center !important;
+  }
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content{
+    color: var(--wp--preset--color--primary) !important;
+  }
+}
+
+.wc-block-mini-cart.wp-block-woocommerce-mini-cart,.wp-block-woocommerce-customer-account {
+    display: none;
+}
+
+/*back to top*/
+.wp-block-button.scroll-to-top .wp-block-button__link.wp-element-button {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: inline-block;
+  z-index: 1;
+  text-indent: -5000px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.089);
+  display: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.wp-block-button.scroll-to-top .wp-block-button__link.wp-element-button:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  -webkit-mask-image: url(assets/images/up-arrow.svg);
+  mask-image: url(assets/images/up-arrow.svg);
+  mask-repeat: no-repeat;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+}
